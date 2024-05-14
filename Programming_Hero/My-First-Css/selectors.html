@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+    p{
+        color:midnightblue ;
+    }
+    .yellow{
+        font-size: 30px;
+        background-color: yellow;
+        color:black;
+    }
+    #three{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 500;
+        background-color: darkblue;
+        color: white;
+        font-size: 25px;
+        letter-spacing:5px;
+    }
+    input{
+        background-color: yellow;
+        color: black;
+        
+    }
+    input[type="password"]{
+        padding:20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Explore Mixed Selectors</h1>
+    <p class="yellow">CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .</p>
+    <p>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .</p>
+    <p id="three"><strong>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate.</strong></p>
+    <p class="yellow"><strong>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate.</strong></p>
+    <p><strong>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate.</strong></p>
+    <p><strong>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate.</strong></p>
+
+    <!-- Attribute Selector -->
+    <input type="text" placeholder="Enter Your Name"><br>
+    <input type="password" placeholder="Enter Password">
+</body>
+</html>

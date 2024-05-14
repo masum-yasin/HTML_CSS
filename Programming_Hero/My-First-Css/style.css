@@ -1,0 +1,27 @@
+.header{
+    height: 300px;
+    text-align: center;
+    background-image:url('education.jpg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: cover;
+    /* background-size: 400px; */
+    /* background-size: contain; */
+}
+.check  li{
+    display: inline;
+    font-size: 40px;
+    align-items: center;
+    color:darkslategray;
+}
+.paragraph {
+    max-width: fit-content;
+    margin-inline: auto;
+    /* border: 2px solid yellow; */
+    width: 200px;
+    background-color: aqua;
+
+
+
+}
