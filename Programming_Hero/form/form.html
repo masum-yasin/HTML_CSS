@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 5px 10px;
+           
+        }
+        table{
+            border-collapse: collapse;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="blogsite/blog.html"><li>Home</li></a>
+                <a href="Table/table.html"><li>Table</li></a>
+                <a href="form/form.html"><li>Contact</li></a>
+                <a href=""><li>Blog</li></a>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <fieldset>
+                <legend>My Dynamic Form</legend>
+                <form action="">
+                    <label for="name">
+                        <input type="text" placeholder="Name">
+                    </label>
+                    <label for="email">
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label for="phone">
+                        <input type="text" placeholder="phone">
+                    </label>
+                    <fieldset>
+                        <legend>Select Only One</legend>
+                        <label for="male">
+                            <input type="radio" name="gender" id="male">Male
+                        </label>
+                        <label for="female">
+                            <input type="radio" placeholder="gender" id="female">Female
+                        </label>
+                
+                    </fieldset>
+                    <fieldset>
+                        <legend>Select One Or More</legend>
+                        <label for="">
+                            <input type="checkbox" name="device">Monitor
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="device">Mouse
+                        </label>
+                        <label for="">
+                            <input type="checkbox" name="device">Keyboard
+                        </label>
+                        
+                        
+                    </fieldset>
+                    </form>
+            </fieldset>
+        </main>
+
+
+
+
+</body>
+</html>
