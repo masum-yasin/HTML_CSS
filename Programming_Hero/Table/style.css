@@ -22,7 +22,7 @@ nav, li,  a:hover{
 nav li .dropdown{
     display: none;
     position: absolute;
-    padding: 10px;
+    padding-left: 10px;
 }
 nav li:hover .dropdown{
 display: block;
